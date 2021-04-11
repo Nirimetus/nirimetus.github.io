@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://christinna9031.github.io/Twitch-Clip-Embed/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head>
+<body style="background-color:black;">
+<div id="iframe">
+<iframe id="url" src="./christinna9031.github.io_files/embed.html" height="788" width="1400" frameborder="0" scrolling="no" allowfullscreen="true">
+</iframe>
+</div>
+
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const clip_id = urlParams.get('clipid')
+    console.log(url)
+    document.getElementById("url").src = "https://clips.twitch.tv/embed?clip="+clip_id+"&parent=christinna9031.github.io&autoplay=true";
+</script>
+
+</body></html>
